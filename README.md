@@ -76,3 +76,8 @@ Correctness: `tests/upstream_expected.json` holds agent-standup's state, title, 
 
 ## License
 MIT
+
+## Related tools
+- [session-fold](https://github.com/Dodai0419/session-fold): read what your agent did at five zoom levels
+- [session-panel](https://github.com/Dodai0419/session-panel): replay a Claude Code session as an animated panel
+- All tools, one install pattern: [github.com/Dodai0419](https://github.com/Dodai0419)
