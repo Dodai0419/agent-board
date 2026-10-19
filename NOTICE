@@ -1,0 +1,8 @@
+agent-board
+Copyright (c) 2026 Dodai0419
+
+Session state rules are ported from Atoll92/agent-standup (MIT, Copyright (c) 2026 Arthur).
+The token accounting approach (count each assistant message once across streamed fragments, include
+sub-agent transcripts, use the cumulative Codex token counter) follows Entelligence-AI/agentplay
+(Apache-2.0, Copyright Entelligence AI). No agentplay source code is included; its numbers were used
+only as the expected values in tests/upstream_expected.json.

@@ -1,0 +1,79 @@
+{
+ "order": [
+  "11111111-1111-4111-8111-111111111111",
+  "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+  "22222222-2222-4222-8222-222222222222",
+  "66666666-6666-4666-8666-666666666666",
+  "44444444-4444-4444-8444-444444444444",
+  "33333333-3333-4333-8333-333333333333",
+  "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+  "55555555-5555-4555-8555-555555555555"
+ ],
+ "rows": {
+  "11111111-1111-4111-8111-111111111111": {
+   "title": "Fix the failing checkout test",
+   "state": "working",
+   "tool": "Bash",
+   "subTotal": 0,
+   "source": "claude",
+   "tokens": 21220
+  },
+  "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa": {
+   "title": "Add dark mode to settings",
+   "state": "working",
+   "tool": "",
+   "subTotal": 0,
+   "source": "codex",
+   "tokens": 9450
+  },
+  "22222222-2222-4222-8222-222222222222": {
+   "title": "Refactor cart",
+   "state": "blocked",
+   "tool": "Edit",
+   "subTotal": 0,
+   "source": "claude",
+   "tokens": 7300
+  },
+  "66666666-6666-4666-8666-666666666666": {
+   "title": "Rename every helper",
+   "state": "turn",
+   "tool": "",
+   "subTotal": 0,
+   "source": "claude",
+   "tokens": 430
+  },
+  "44444444-4444-4444-8444-444444444444": {
+   "title": "Audit the repo for secrets",
+   "state": "waiting",
+   "tool": "Task",
+   "subTotal": 1,
+   "source": "claude",
+   "tokens": 870
+  },
+  "33333333-3333-4333-8333-333333333333": {
+   "title": "What does the payment service do?",
+   "state": "turn",
+   "tool": "",
+   "subTotal": 0,
+   "source": "claude",
+   "tokens": 620
+  },
+  "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb": {
+   "title": "API version bump",
+   "state": "turn",
+   "tool": "",
+   "subTotal": 0,
+   "source": "codex",
+   "tokens": 4300
+  },
+  "55555555-5555-4555-8555-555555555555": {
+   "title": "Write release notes",
+   "state": "idle",
+   "tool": "",
+   "subTotal": 0,
+   "source": "claude",
+   "tokens": 1300
+  }
+ },
+ "_note": "board fields from Atoll92/agent-standup boardRows(); tokens from Entelligence-AI/agentplay list --json; both run on tests/fixture.py output"
+}

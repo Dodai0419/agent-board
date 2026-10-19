@@ -1,0 +1,1 @@
+{"name": "agent-board", "owner": {"name": "Dodai0419"}, "plugins": [{"name": "agent-board", "source": "./", "description": "See every Claude Code and Codex session at once: who is working, who is blocked, whose turn, tokens used."}]}
